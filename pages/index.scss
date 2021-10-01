@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #555;
+  line-height: 1.5em;
+}
+
+header, section, footer {
+  padding: 1em;
+
+  @media only screen and (min-width: 600px) {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    padding-left: calc(50vw - 400px);
+    padding-right: calc(50vw - 400px);
+  }
+}
+
+a {
+  color: #AED6F1;
+  &:visited {
+    color: #D2B4DE;
+  }
+}
+
+.interact {
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+button {
+  padding: 0.25em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 16px;
+  cursor: pointer;
+}
