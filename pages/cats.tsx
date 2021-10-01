@@ -9,10 +9,10 @@ import DefaultHead from '../Components/DefaultHead'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
 
-import cat1 from "../images/kari-shea-eMzblc6JmXM-unsplash.jpg"
-import cat2 from "../images/karina-vorozheeva-rW-I87aPY5Y-unsplash.jpg"
-import cat3 from "../images/ludemeula-fernandes-9UUoGaaHtNE-unsplash.jpg"
-import home from "../images/home-solid.svg"
+import cat1 from "../public/images/kari-shea-eMzblc6JmXM-unsplash.jpg"
+import cat2 from "../public/images/karina-vorozheeva-rW-I87aPY5Y-unsplash.jpg"
+import cat3 from "../public/images/ludemeula-fernandes-9UUoGaaHtNE-unsplash.jpg"
+import home from "../public/images/home-solid.svg"
 
 const Cats = () => {
   const [error, setError] = useState<string>("")

@@ -8,9 +8,9 @@ import DefaultHead from '../Components/DefaultHead'
 import Footer from "../Components/Footer"
 import Header from "../Components/Header"
 
-import cat from "../images/ludemeula-fernandes-9UUoGaaHtNE-unsplash.jpg"
-import dog from "../images/david-moynihan-BT_QM4CpnNE-unsplash.jpg"
-import github from "../images/github-brands.svg"
+import cat from "../public/images/ludemeula-fernandes-9UUoGaaHtNE-unsplash.jpg"
+import dog from "../public/images/david-moynihan-BT_QM4CpnNE-unsplash.jpg"
+import github from "../public/images/github-brands.svg"
 
 const IndexPage = () => {
   return (
@@ -54,6 +54,16 @@ const IndexPage = () => {
         <hr/>
 
         <div>
+          <p>While Next.js is nice, it's definitely more annoying than Gatsby.</p>
+
+          <ul>
+            <li>The documentation for deploying to GitHub pages doesn't exist, probably because they want you to use their service. I tried following <Blankor href="https://tishonator.com/blog/how-to-host-a-next-js-app-on-github-pages">tutorial</Blankor>.</li>
+            <li>Image optimization doesn't work if you're <Blankor href="https://nextjs.org/docs/messages/export-image-api">exporting</Blankor></li>
+            <li>I spent a while trying to get exporting to work with my images and gave up. I will be using Gatsby instead of Next.js</li>
+          </ul>
+        </div>
+
+        <div>
           <p>Useful Documentation:</p>
 
           <ul>
@@ -62,6 +72,7 @@ const IndexPage = () => {
             <li><Blankor href="https://nextjs.org/docs/basic-features/built-in-css-support">Global CSS</Blankor></li>
             <li><Blankor href="https://nextjs.org/docs/api-reference/next/image">Images</Blankor></li>
             <li><Blankor href="https://nextjs.org/docs/basic-features/environment-variables">Environment Variables</Blankor></li>
+            <li><Blankor href="https://nextjs.org/learn/basics/deploying-nextjs-app/deploy">Deploying</Blankor></li>
           </ul>
         </div>
       </section>

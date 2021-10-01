@@ -13,7 +13,7 @@ const Counter = () => {
       <br/>
       <div><b>Recoil Counter:</b> {count}</div>
       <div><button onClick={() => setCount(count + 1)}>Increment</button></div>
-      <p>This app uses <Blankor href="https://recoiljs.org/">Recoil</Blankor> as a state manager for React. The global state is persisted across pages with Gatsby's via the <Blankor href="https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/#wrapPageElement">wrapPageElement API in the gatsby-browser.js file</Blankor>. If you increment the count then change pages, the count will persist.</p>
+      <p>This app uses <Blankor href="https://recoiljs.org/">Recoil</Blankor> as a state manager for React. The global state is persisted across pages with the _app.js file. If you increment the count then change pages, the count will persist.</p>
       <br/>
     </div>
   )

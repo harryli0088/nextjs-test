@@ -9,10 +9,10 @@ import DefaultHead from '../Components/DefaultHead'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
 
-import dog1 from "../images/lui-peng-ybHtKz5He9Y-unsplash.jpg"
-import dog2 from "../images/jamie-street-UtrE5DcgEyg-unsplash.jpg"
-import dog3 from "../images/david-moynihan-BT_QM4CpnNE-unsplash.jpg"
-import home from "../images/home-solid.svg"
+import dog1 from "../public/images/lui-peng-ybHtKz5He9Y-unsplash.jpg"
+import dog2 from "../public/images/jamie-street-UtrE5DcgEyg-unsplash.jpg"
+import dog3 from "../public/images/david-moynihan-BT_QM4CpnNE-unsplash.jpg"
+import home from "../public/images/home-solid.svg"
 
 const Dogs = () => {
   const [error, setError] = useState<string>("")
